@@ -1,0 +1,73 @@
+body
+{
+  margin:0;
+  padding:0;
+  background-image:url(images/jason-dent-3wPJxh-piRw-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position:center;
+    
+}
+
+.bottomdiv
+{
+	width:100%;
+	height:250px;
+	background:rgba(0,0,0,0.6);
+	position:relative;
+	top:400px;
+}
+
+.button1
+{
+	text-decoration:none;
+	width:100px;
+	height:100px;
+	background-color:rgba(0,0,0,0.4);
+	color:#666;
+	clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%);
+	box-sizing:border-box;
+	padding: 45px;
+    position: relative;
+    left: 380px;
+	border: solid 2px white;
+	font-size: 30px;
+}
+.button1:hover
+{
+	text-decoration:none;
+	width:100px;
+	height:100px;
+	background-color:rgba(0,0,0,0.7); 
+	color:#CCC;
+	clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%);
+	box-sizing:border-box;
+	padding: 45px;
+}
+
+.button2
+{
+	text-decoration:none;
+	width:100px;
+	height:100px;
+	background-color:rgba(0,0,0,0.4);
+	color:#666;
+	clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+	box-sizing:border-box;
+	padding: 45px;
+    position: relative;
+    left: 398px;
+	font-size: 30px;
+}
+
+.button2:hover
+{
+	text-decoration:none;
+	width:100px;
+	height:100px;
+	background-color:rgba(0,0,0,0.7); ;
+	color:#CCC;
+	clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+	box-sizing:border-box;
+	padding: 45px;
+}
